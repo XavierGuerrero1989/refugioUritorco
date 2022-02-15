@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.navbar__list {
+  justify-content: end; }
+
+.nav-link {
+  font-family: "Nunito", sans-serif;
+  color: #cc333f !important;
+  font-size: 1.2rem; }
+  .nav-link:hover {
+    -webkit-animation: text-pop-up-top 0.5s linear both;
+    animation: text-pop-up-top 0.5s linear both; }
+
+@-webkit-keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: none; }
+  100% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3); } }
+
+.logo {
+  -webkit-animation: roll-in-left 2s ease-out both;
+  animation: roll-in-left 2s ease-out both; }
+
+@-webkit-keyframes roll-in-left {
+  0% {
+    -webkit-transform: translateX(-800px) rotate(-540deg);
+    transform: translateX(-800px) rotate(-540deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+    transform: translateX(0) rotate(0deg);
+    opacity: 1; } }
+
+@keyframes roll-in-left {
+  0% {
+    -webkit-transform: translateX(-800px) rotate(-540deg);
+    transform: translateX(-800px) rotate(-540deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+    transform: translateX(0) rotate(0deg);
+    opacity: 1; } }
+
+.upperctn {
+  height: 120vh;
+  background-image: url("../../assets/refugio.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover; }
