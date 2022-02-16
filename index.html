@@ -14,11 +14,11 @@
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("navbar").style.background = "rgba(255,255,255, .75)";
+    document.getElementById("navbar").style.background = "rgba(255,255,255, .95)";
     document.getElementById("logo").style.width = "100px";
   } else {
     document.getElementById("navbar").style.background = "rgba(255,255,255, .25)";
-    document.getElementById("logo").style.width = "";
+    document.getElementById("logo").style.width = "200px";
   }
 }
     </script>
@@ -53,22 +53,40 @@ function scrollFunction() {
         </div>
       </div>
     </nav>
-    <main>
-        <section class="container-fluid hero">
-          <div class="row">
-            <h1>REFUGIO DE ALIENS</h1>
-
-          </div>
-
-
-
-        </section>
-
-
-
-
-
-    </main>
+    <main class="container-fluid d-flex align-items-end hero">
+        <section class="row hero__ctn">
+         <h1 class="col-md-8 hero__title"><strong>Donde el descanso y la naturaleza se encuentran...</strong></h1>
+         <p class="col-md-5 hero__subtitle"><strong>Bañado por la base del cerro "Las Gemelas" encontraras un espacio donde la paz, la naturaleza y el relax toman protagonismo. Disfrutando de un asado, o tomando sol en nuestra pileta, podras encontrar el escape de la rutina que buscas.</strong></p>
+         </section>
+      </main>
+  </div>
+  <div class="container-fluid">
+    <div class="row servicios">
+      <div class="col-md-2 text-center">
+        <img src="./assets/aa.png" alt="aire acondicionado" class="servicios__img">
+        <h3 class="servicios__txt"> <strong>Habitaciones con aire acondicionado.</strong> </h3>
+      </div>
+      <div class="col-md-2 text-center">
+        <img src="./assets/blanco.png" alt="servicio de blanco" class="servicios__img">
+        <h3 class="servicios__txt"> <strong>Servicio de blanqueria y limpieza.</strong> </h3>
+      </div>
+      <div class="col-md-2 text-center">
+        <img src="./assets/cochera.png" alt="cochera" class="servicios__img">
+        <h3 class="servicios__txt"> <strong>Cochera individual bajo techo.</strong> </h3>
+      </div>
+      <div class="col-md-2 text-center">
+        <img src="./assets/cocina.png" alt="cocina" class="servicios__img">
+        <h3 class="servicios__txt"> <strong>Cocina estilo anafe con vajilla completa, microondas y heladera.</strong> </h3>
+      </div>
+      <div class="col-md-2 text-center">
+        <img src="./assets/parrilla.png" alt="parrilla" class="servicios__img">
+        <h3 class="servicios__txt"> <strong>Parrilla individual.</strong> </h3>
+      </div>
+      <div class="col-md-2 text-center">
+        <img src="./assets/pileta.png" alt="pileta" class="servicios__img">
+        <h3 class="servicios__txt"><strong>Pileta frente a la montaña.</strong></h3>
+      </div>
+    </div>
   </div>
 
 

@@ -14,6 +14,14 @@
     -webkit-animation: text-pop-up-top 0.5s linear both;
     animation: text-pop-up-top 0.5s linear both; }
 
+#navbar {
+  padding: 0px; }
+
+#logo {
+  padding: 2px;
+  width: 200px;
+  transition: 1s; }
+
 @-webkit-keyframes text-pop-up-top {
   0% {
     -webkit-transform: translateY(0);
@@ -58,3 +66,29 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.hero {
+  height: 75vh; }
+  .hero__title {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.2rem;
+    color: #cc333f;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 0px 15px 15px 0px; }
+  .hero__subtitle {
+    font-family: "Ubuntu", sans-serif;
+    color: #cc333f;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 0px 15px 15px 0px; }
+
+.servicios {
+  padding: 20px; }
+  .servicios__img {
+    width: 150px;
+    padding: 20px; }
+  .servicios__txt {
+    font-family: "Nunito", sans-serif;
+    color: #6a4a3c;
+    font-size: 1rem; }
