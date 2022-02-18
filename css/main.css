@@ -63,7 +63,7 @@
 
 .upperctn {
   height: 120vh;
-  background-image: url("../../assets/refugio.jpg");
+  background-image: url("../assets/refugio.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -184,7 +184,7 @@
     opacity: 0; } }
 
 .adventureindex {
-  background-image: url("../../assets/20220211_175144.jpg");
+  background-image: url("../assets/20220211_175144.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
@@ -385,7 +385,7 @@ button {
   width: 100%; }
 
 .footer {
-  background-image: url("../../assets/footer.jpg");
+  background-image: url("../assets/footer.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
