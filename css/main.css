@@ -15,7 +15,8 @@
     animation: text-pop-up-top 0.5s linear both; }
 
 #navbar {
-  padding: 0px; }
+  padding: 0px;
+  transition: 1s; }
 
 #logo {
   padding: 2px;
