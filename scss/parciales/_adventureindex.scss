@@ -1,12 +1,13 @@
 @import "./variables";
+@import "./responsive";
+
 
 .adventureindex{
     background-image: url("../assets/20220211_175144.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    height: 90vh;
-
+    height: 110vh;
 
     &__txtctn{
         display: flex;

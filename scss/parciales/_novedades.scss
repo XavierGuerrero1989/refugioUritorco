@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./responsive";
 
 
 .novedades{
@@ -6,11 +7,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 45vh;
+    height: 55vh;
     padding: 10px;
     background-color: #FA8BFF;
 background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
 
+
+    @include movil{
+        height: 140vh;
+    }
+
+    @include tablet{
+        height: 140vh;
+    }
 
 
     

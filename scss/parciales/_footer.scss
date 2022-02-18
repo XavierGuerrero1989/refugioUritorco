@@ -7,6 +7,10 @@
     background-size: cover;
     height: 40vh;
 
+    &__list{
+        list-style-type: none;
+    }
+
     &__link{
         font-family: $font-normal;
         color: white;
