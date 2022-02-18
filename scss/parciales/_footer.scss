@@ -1,0 +1,17 @@
+@import "./variables";
+
+.footer{
+    background-image: url("../../assets/footer.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 40vh;
+
+    &__link{
+        font-family: $font-normal;
+        color: white;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+}
+
