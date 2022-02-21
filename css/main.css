@@ -413,6 +413,9 @@ button {
     color: white;
     font-size: 1rem;
     text-decoration: none; }
+  .footer__contacto {
+    font-family: "Ubuntu", sans-serif;
+    color: white; }
 
 .float {
   position: fixed;
@@ -446,28 +449,6 @@ button {
 .hero__complejo {
   height: 70vh; }
 
-.hero__complejo--title {
-  color: #cc333f;
-  background-color: rgba(255, 255, 255, 0.5);
-  font-family: "Ubuntu", sans-serif;
-  padding: 5px;
-  border-radius: 20px 20px 20px 20px;
-  font-size: 1.5rem;
-  -webkit-animation: fade-in 4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in 4s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
-
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-@keyframes fade-in {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
 .complejo__header {
   display: flex;
   flex-direction: column;
@@ -484,7 +465,9 @@ button {
   font-size: 2.2rem; }
 
 .habitaciones {
-  padding: 20px; }
+  padding: 20px;
+  background-color: #FA8BFF;
+  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%); }
   .habitaciones__imgctn {
     display: flex;
     flex-direction: row;
@@ -502,8 +485,19 @@ button {
     position: relative;
     justify-self: center; }
   .habitaciones__txt {
-    color: #cc333f;
+    color: white;
     font-family: "Ubuntu", sans-serif;
     font-size: 1.3rem;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.1); }
+
+.accordion__txt {
+  font-family: "Ubuntu", sans-serif;
+  color: #cc333f; }
+
+.galeria {
+  padding: 10px; }
+
+.complejo__img {
+  border-radius: 20px 20px 20px 20px;
+  padding: 10px; }
