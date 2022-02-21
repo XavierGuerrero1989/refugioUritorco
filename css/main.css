@@ -503,3 +503,16 @@ button {
 .complejo__img {
   border-radius: 20px 20px 20px 20px;
   padding: 10px; }
+
+.precio {
+  padding: 20px; }
+  .precio__title {
+    font-family: "Ubuntu", sans-serif;
+    color: #cc333f; }
+
+.card-text {
+  font-family: "Ubuntu", sans-serif;
+  color: #cc333f; }
+
+.precio1 {
+  padding: 20px; }
