@@ -7,6 +7,14 @@
     background-size: cover;
     height: 40vh;
 
+    @include movil{
+        height: 80vh;
+    }
+
+    @include tablet{
+        height: 80vh;
+    }
+
     &__list{
         list-style-type: none;
     }

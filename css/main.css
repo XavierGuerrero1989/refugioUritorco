@@ -406,6 +406,12 @@ button {
   background-position: center center;
   background-size: cover;
   height: 40vh; }
+  @media screen and (max-width: 320px) {
+    .footer {
+      height: 80vh; } }
+  @media screen and (max-width: 768px) {
+    .footer {
+      height: 80vh; } }
   .footer__list {
     list-style-type: none; }
   .footer__link {
@@ -441,7 +447,7 @@ button {
 
 .upperctn__complejo {
   height: 90vh;
-  background-image: url("../../assets/pileta2.jpeg");
+  background-image: url("../assets/pileta2.jpeg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover; }
