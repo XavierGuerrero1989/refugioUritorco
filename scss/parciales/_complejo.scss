@@ -1,0 +1,97 @@
+@import "./variables";
+
+.upperctn__complejo{
+    height: 90vh;
+    background-image: url("../../assets/pileta2.jpeg");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero__complejo{
+    height: 70vh;
+}
+
+.hero__complejo--title{
+    color: $color-red;
+    background-color: rgba(255,255,255, .5);
+    font-family: $font-title;
+    padding: 5px;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 1.5rem;
+    -webkit-animation: fade-in 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .complejo__header{
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+  }
+
+  .complejo__mini{
+      color: $color-red;
+      font-family: $font-title;
+      font-size: 1.5rem;
+  }
+  .complejo__titulo{
+    color: $color-red;
+    font-family: $font-title;
+    font-size: 2.2rem;
+  }
+
+  .habitaciones{
+      padding: 20px;
+
+    &__imgctn{
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        overflow: hidden;
+    }
+
+    &__imgctn2{
+        display: flex;
+        flex-direction: row-reverse;
+        
+        padding: 20px;
+        overflow: hidden;
+    }
+
+
+    &__img{
+        width: 500px !important;
+        border-radius: 25px 25px 25px 25px;
+    }
+
+    &___list{
+        position: relative;
+        justify-self: center;
+        
+    }
+
+    &__txt{
+        color: $color-red;
+        font-family: $font-title;
+        font-size: 1.3rem;
+        height: 100%;
+        background-color: rgba(0,0,0, .1);
+    }
+  }
