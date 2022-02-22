@@ -516,3 +516,21 @@ button {
 
 .precio1 {
   padding: 20px; }
+
+.upperctn__ubicacion {
+  height: 100vh;
+  background-image: url("../../assets/ubicacion.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.ubicacion {
+  padding: 20px; }
+  .ubicacion__titulo {
+    font-family: "Ubuntu", sans-serif;
+    color: #cc333f;
+    font-size: 2rem; }
+  .ubicacion__subtitulo {
+    font-family: "Nunito", sans-serif;
+    color: #cc333f;
+    font-size: 1.5rem; }

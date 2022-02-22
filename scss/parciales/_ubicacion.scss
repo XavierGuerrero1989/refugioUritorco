@@ -1,0 +1,28 @@
+@import "./variables";
+
+.upperctn__ubicacion{
+    height: 100vh;
+    background-image: url("../../assets/ubicacion.jpg");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.ubicacion{
+    padding: 20px;
+
+    &__titulo{
+        font-family: $font-title;
+        color: $color-red;
+        font-size: 2rem;
+    }
+
+    &__subtitulo{
+        font-family: $font-normal;
+        color: $color-red;
+        font-size: 1.5rem;
+    }
+
+
+}
