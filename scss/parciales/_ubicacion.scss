@@ -23,6 +23,23 @@
         color: $color-red;
         font-size: 1.5rem;
     }
+}
 
+.caminos{
+    padding: 40px;
+
+    &__titulo{
+        padding: 10px;
+        font-family: $font-title;
+        color: $color-red;
+        font-size: 2rem;
+    }
+
+    &__imgctn{
+        padding: 10px;
+    }
+    &__img{
+        padding: 15px;
+    }
 
 }

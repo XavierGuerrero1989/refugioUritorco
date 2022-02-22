@@ -534,3 +534,15 @@ button {
     font-family: "Nunito", sans-serif;
     color: #cc333f;
     font-size: 1.5rem; }
+
+.caminos {
+  padding: 40px; }
+  .caminos__titulo {
+    padding: 10px;
+    font-family: "Ubuntu", sans-serif;
+    color: #cc333f;
+    font-size: 2rem; }
+  .caminos__imgctn {
+    padding: 10px; }
+  .caminos__img {
+    padding: 15px; }
