@@ -589,10 +589,10 @@ button {
   height: 165vh; }
   @media screen and (max-width: 320px) {
     .cartas {
-      height: 310vh; } }
+      height: 340vh; } }
   @media screen and (max-width: 768px) {
     .cartas {
-      height: 310vh; } }
+      height: 340vh; } }
 
 .cartas1 {
   height: 165vh; }
