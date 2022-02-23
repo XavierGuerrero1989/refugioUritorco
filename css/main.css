@@ -67,6 +67,12 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover; }
+  @media screen and (max-width: 320px) {
+    .upperctn {
+      background-size: contain; } }
+  @media screen and (max-width: 768px) {
+    .upperctn {
+      background-size: contain; } }
 
 .hero {
   height: 75vh; }
