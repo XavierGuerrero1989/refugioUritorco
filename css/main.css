@@ -589,19 +589,19 @@ button {
   height: 165vh; }
   @media screen and (max-width: 320px) {
     .cartas {
-      height: 250vh; } }
+      height: 280vh; } }
   @media screen and (max-width: 768px) {
     .cartas {
-      height: 250vh; } }
+      height: 280vh; } }
 
 .cartas1 {
   height: 165vh; }
   @media screen and (max-width: 320px) {
     .cartas1 {
-      height: 140vh; } }
+      height: 180vh; } }
   @media screen and (max-width: 768px) {
     .cartas1 {
-      height: 140vh; } }
+      height: 180vh; } }
 
 .cards {
   width: 100%;

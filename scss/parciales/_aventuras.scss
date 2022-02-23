@@ -56,11 +56,11 @@
     height: 165vh;
 
     @include movil{
-      height: 250vh;
+      height: 280vh;
   }
 
   @include tablet{
-      height: 250vh;
+      height: 280vh;
   }
 }
 
@@ -68,11 +68,11 @@
   height: 165vh;
 
   @include movil{
-    height: 140vh;
+    height: 180vh;
 }
 
   @include tablet{
-    height: 140vh;
+    height: 180vh;
 }
 }
 
