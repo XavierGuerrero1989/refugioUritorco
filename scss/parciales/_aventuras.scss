@@ -1,4 +1,6 @@
 @import "./variables";
+@import "./responsive";
+
 
 .upperctn__aventuras{
     height: 100vh;
@@ -37,7 +39,7 @@
 	color: transparent;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 8rem;
+	font-size: 5rem;
 	font-weight: bold;
 
 	background-image: url('../assets/letrafondo.jpg');
@@ -52,6 +54,26 @@
 
 .cartas{
     height: 165vh;
+
+    @include movil{
+      height: 550vh;
+  }
+
+  @include tablet{
+      height: 550vh;
+  }
+}
+
+.cartas1{
+  height: 165vh;
+
+  @include movil{
+    height: 300vh;
+}
+
+@include tablet{
+    height: 300vh;
+}
 }
 
 .cards {
@@ -119,7 +141,7 @@
     color: transparent;
     text-align: center;
     text-transform: uppercase;
-    font-size: 8rem;
+    font-size: 3.8rem;
     font-weight: bold;
   
     background-image: url('../assets/trekkinguri.jpg');

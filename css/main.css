@@ -519,7 +519,7 @@ button {
 
 .upperctn__ubicacion {
   height: 100vh;
-  background-image: url("../../assets/ubicacion.jpg");
+  background-image: url("../assets/ubicacion.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -576,7 +576,7 @@ button {
   color: transparent;
   text-align: center;
   text-transform: uppercase;
-  font-size: 8rem;
+  font-size: 5rem;
   font-weight: bold;
   background-image: url("../assets/letrafondo.jpg");
   background-size: cover;
@@ -587,6 +587,21 @@ button {
 
 .cartas {
   height: 165vh; }
+  @media screen and (max-width: 320px) {
+    .cartas {
+      height: 550vh; } }
+  @media screen and (max-width: 768px) {
+    .cartas {
+      height: 550vh; } }
+
+.cartas1 {
+  height: 165vh; }
+  @media screen and (max-width: 320px) {
+    .cartas1 {
+      height: 300vh; } }
+  @media screen and (max-width: 768px) {
+    .cartas1 {
+      height: 300vh; } }
 
 .cards {
   width: 100%;
@@ -645,7 +660,7 @@ button {
   color: transparent;
   text-align: center;
   text-transform: uppercase;
-  font-size: 8rem;
+  font-size: 3.8rem;
   font-weight: bold;
   background-image: url("../assets/trekkinguri.jpg");
   background-size: cover;
