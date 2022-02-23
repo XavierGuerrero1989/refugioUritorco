@@ -549,7 +549,7 @@ button {
 
 .upperctn__aventuras {
   height: 100vh;
-  background-image: url("../../assets/uritorco.jpg");
+  background-image: url("../assets/uritorco.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -578,7 +578,7 @@ button {
   text-transform: uppercase;
   font-size: 8rem;
   font-weight: bold;
-  background-image: url("../../assets/letrafondo.jpg");
+  background-image: url("../assets/letrafondo.jpg");
   background-size: cover;
   background-position-y: 700px;
   background-clip: text;
@@ -586,7 +586,7 @@ button {
   -webkit-text-fill-color: transparent; }
 
 .cartas {
-  height: 150vh; }
+  height: 165vh; }
 
 .cards {
   width: 100%;
@@ -633,3 +633,23 @@ button {
 .card:hover .card-desc {
   opacity: 1;
   height: 100%; }
+
+.aventuras__supertexto1 {
+  background: white;
+  min-height: 40vh;
+  display: flex;
+  align-items: center; }
+
+.supertexto1 {
+  width: 100%;
+  color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 8rem;
+  font-weight: bold;
+  background-image: url("../assets/trekkinguri.jpg");
+  background-size: cover;
+  background-position-y: 700px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
