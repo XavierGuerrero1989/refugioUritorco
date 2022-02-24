@@ -1,0 +1,43 @@
+@import "./variables";
+@import "./responsive";
+
+.upperctn__eventos{
+    height: 90vh;
+    background-image: url("../../assets/eventosesp.jpg");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news__ctn{
+    border: solid 2px black;
+    width: 1200px !important;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0,160,176, .15) ;
+}
+
+.news__title{
+    font-family: $font-title;
+    color: $color-red;
+    font-size: 2rem;
+}
+
+.news__img{
+    width: 400px;
+}
+
+.news__mini{
+    padding: 30px;
+    font-family: $font-title;
+    color: $color-red;
+    font-size: 1.5rem;
+}
+
+.news__body{
+    font-family: $font-title;
+    color: $color-red;
+    font-size: 1.2rem;
+}
+
