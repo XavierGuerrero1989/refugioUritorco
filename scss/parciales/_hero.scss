@@ -7,15 +7,6 @@
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-
-    @include movil{
-        background-size: contain;
-    }
-  
-    @include tablet{
-        background-size: contain;
-    }
-
 }
 
 

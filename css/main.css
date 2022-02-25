@@ -67,12 +67,6 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover; }
-  @media screen and (max-width: 320px) {
-    .upperctn {
-      background-size: contain; } }
-  @media screen and (max-width: 768px) {
-    .upperctn {
-      background-size: contain; } }
 
 .hero {
   height: 30vh; }
@@ -713,7 +707,7 @@ button {
   font-size: 1.2rem; }
 
 .upperctn__contacto {
-  background-image: url("../../assets/contacto.jpg");
+  background-image: url("../assets/contacto.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
