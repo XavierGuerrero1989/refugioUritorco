@@ -680,7 +680,7 @@ button {
 
 .upperctn__eventos {
   height: 90vh;
-  background-image: url("../../assets/eventosesp.jpg");
+  background-image: url("../assets/eventosesp.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -711,3 +711,35 @@ button {
   font-family: "Ubuntu", sans-serif;
   color: #cc333f;
   font-size: 1.2rem; }
+
+.upperctn__contacto {
+  background-image: url("../../assets/contacto.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 80vh; }
+
+.contact {
+  padding-left: 40px !important;
+  padding: 40px; }
+  .contact__title {
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 3rem;
+    padding: 20px; }
+
+.color-change-2x {
+  -webkit-animation: color-change-2x 5s linear infinite alternate both;
+  animation: color-change-2x 5s linear infinite alternate both; }
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background-color: #19dcea; }
+  100% {
+    background-color: #b22cff; } }
+
+@keyframes color-change-2x {
+  0% {
+    background-color: #19dcea; }
+  100% {
+    background-color: #b22cff; } }
