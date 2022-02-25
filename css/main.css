@@ -737,3 +737,53 @@ button {
     background-color: #19dcea; }
   100% {
     background-color: #b22cff; } }
+
+.effect {
+  display: flex; }
+  .effect a {
+    text-decoration: none !important;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 25px;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    border: 2px solid #fff; }
+    .effect a i {
+      position: relative;
+      z-index: 3; }
+    .effect a:last-child {
+      margin-right: 0px; }
+    .effect a:before {
+      content: "";
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle; }
+    .effect a i {
+      display: inline-block;
+      vertical-align: middle; }
+
+.effect.varrius a {
+  transition: all 0.2s linear 0s; }
+  .effect.varrius a:after {
+    content: "";
+    display: block;
+    width: 90%;
+    height: 90%;
+    top: -110%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%; }
+  .effect.varrius a:hover {
+    color: #212121; }
+    .effect.varrius a:hover:after {
+      top: 5%;
+      transition: all 0.2s linear 0s; }
