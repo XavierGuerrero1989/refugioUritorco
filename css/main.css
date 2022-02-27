@@ -727,7 +727,6 @@ button {
   height: 80vh; }
 
 .contact {
-  padding-left: 40px !important;
   padding: 40px; }
   .contact__title {
     font-family: "Ubuntu", sans-serif;
