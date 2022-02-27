@@ -69,7 +69,7 @@
   background-size: cover; }
 
 .hero {
-  height: 30vh; }
+  padding: 5px; }
   .hero__title {
     font-family: "Ubuntu", sans-serif;
     font-size: 2.2rem;
@@ -300,10 +300,10 @@ button {
   background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%); }
   @media screen and (max-width: 320px) {
     .novedades {
-      height: 80vh; } }
+      height: 120vh; } }
   @media screen and (max-width: 768px) {
     .novedades {
-      height: 80vh; } }
+      height: 120vh; } }
   .novedades__title {
     font-family: "Ubuntu", sans-serif;
     color: #cc333f;
@@ -408,10 +408,14 @@ button {
   height: 40vh; }
   @media screen and (max-width: 320px) {
     .footer {
-      height: 80vh; } }
+      display: flex;
+      flex-direction: column-reverse;
+      height: 120vh; } }
   @media screen and (max-width: 768px) {
     .footer {
-      height: 80vh; } }
+      display: flex;
+      flex-direction: column-reverse;
+      height: 120vh; } }
   .footer__list {
     list-style-type: none; }
   .footer__link {
@@ -419,6 +423,9 @@ button {
     color: white;
     font-size: 1rem;
     text-decoration: none; }
+    .footer__link--1 {
+      color: white;
+      text-decoration: underline; }
   .footer__contacto {
     font-family: "Ubuntu", sans-serif;
     color: white; }
@@ -681,7 +688,7 @@ button {
 
 .news__ctn {
   border: solid 2px black;
-  width: 1200px !important;
+  width: 80% !important;
   padding: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -693,7 +700,13 @@ button {
   font-size: 2rem; }
 
 .news__img {
-  width: 400px; }
+  width: 64vh; }
+  @media screen and (max-width: 320px) {
+    .news__img {
+      width: 40vh; } }
+  @media screen and (max-width: 768px) {
+    .news__img {
+      width: 40vh; } }
 
 .news__mini {
   padding: 30px;
