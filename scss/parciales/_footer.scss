@@ -27,7 +27,7 @@
         font-family: $font-normal;
         color: white;
         font-size: 1rem;
-        text-decoration: none;
+        text-decoration: underline;
 
         &--1{
             color: white;
@@ -40,6 +40,10 @@
         color: white;
     }
 
+}
+
+.footer__contacto--list{
+    list-style: none !important;
 }
 
 
