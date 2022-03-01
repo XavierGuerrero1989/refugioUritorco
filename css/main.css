@@ -599,22 +599,22 @@ button {
   -webkit-text-fill-color: transparent; }
 
 .cartas {
-  height: 165vh; }
+  height: 90vh; }
   @media screen and (max-width: 320px) {
     .cartas {
-      height: 340vh; } }
+      height: 180vh; } }
   @media screen and (max-width: 768px) {
     .cartas {
-      height: 340vh; } }
+      height: 180vh; } }
 
 .cartas1 {
-  height: 165vh; }
+  height: 90vh; }
   @media screen and (max-width: 320px) {
     .cartas1 {
-      height: 200vh; } }
+      height: 180vh; } }
   @media screen and (max-width: 768px) {
     .cartas1 {
-      height: 200vh; } }
+      height: 180vh; } }
 
 .cards {
   width: 100%;
@@ -802,3 +802,30 @@ button {
     .effect.varrius a:hover:after {
       top: 5%;
       transition: all 0.2s linear 0s; }
+
+.presentacion {
+  padding: 20px;
+  overflow: hidden; }
+  .presentacion__row {
+    overflow: hidden; }
+  .presentacion__ctn {
+    overflow: hidden;
+    height: 60vh;
+    width: 64vh; }
+  .presentacion__ctn1 {
+    overflow: hidden;
+    height: 60vh;
+    width: 80vh; }
+  .presentacion__img {
+    transition: transform .4s;
+    overflow: hidden; }
+  .presentacion__img:hover {
+    transform: scale(1.1); }
+  .presentacion__img1 {
+    transition: transform .4s;
+    overflow: hidden; }
+  .presentacion__img1:hover {
+    transform: scale(1.1); }
+  .presentacion__titulo {
+    font-family: "Ubuntu", sans-serif;
+    color: #cc333f; }

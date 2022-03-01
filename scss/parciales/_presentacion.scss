@@ -1,0 +1,47 @@
+@import "./variables";
+
+.presentacion{
+
+    padding: 20px;
+    overflow: hidden;
+
+    &__row{
+        overflow: hidden;
+    }
+
+    &__ctn{
+        overflow: hidden;
+        height: 60vh;
+        width: 64vh;
+    }
+
+    &__ctn1{
+        overflow: hidden;
+        height: 60vh;
+        width: 80vh;
+    }
+
+    &__img{
+        transition: transform .4s;
+        overflow: hidden;
+    }
+
+    &__img:hover{
+        transform: scale(1.1);
+    }
+
+    &__img1{
+        transition: transform .4s;
+        overflow: hidden;
+    }
+
+    &__img1:hover{
+        transform: scale(1.1);
+    }
+    
+    &__titulo{
+        font-family: $font-title;
+        color: $color-red;
+    }
+
+}
