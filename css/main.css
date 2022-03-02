@@ -3,14 +3,24 @@
   padding: 0px;
   box-sizing: border-box; }
 
+/* red original:  rgb(204,51,63)    */
+/* red original:  rgb(204,51,63)    */
 .navbar__list {
   justify-content: end; }
 
 .nav-link {
   font-family: "Nunito", sans-serif;
-  color: #cc333f !important;
+  color: black !important;
   font-size: 1.2rem; }
   .nav-link:hover {
+    -webkit-animation: text-pop-up-top 0.5s linear both;
+    animation: text-pop-up-top 0.5s linear both; }
+
+#modifnav {
+  font-family: "Nunito", sans-serif;
+  color: black !important;
+  font-size: 1rem !important; }
+  #modifnav:hover {
     -webkit-animation: text-pop-up-top 0.5s linear both;
     animation: text-pop-up-top 0.5s linear both; }
 
@@ -61,6 +71,7 @@
     transform: translateX(0) rotate(0deg);
     opacity: 1; } }
 
+/* red original:  rgb(204,51,63)    */
 .upperctn {
   height: 120vh;
   background-image: url("../assets/refugio.jpg");
@@ -73,13 +84,13 @@
   .hero__title {
     font-family: "Ubuntu", sans-serif;
     font-size: 2.2rem;
-    color: #cc333f;
+    color: black;
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 0px 15px 15px 0px; }
   .hero__subtitle {
     font-family: "Ubuntu", sans-serif;
-    color: #cc333f;
+    color: black;
     font-size: 1rem;
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 0px 15px 15px 0px; }
@@ -113,12 +124,13 @@
     color: #6a4a3c;
     font-size: 1rem; }
 
+/* red original:  rgb(204,51,63)    */
 .video {
-  border-top: solid 5px #cc333f;
-  border-bottom: solid 5px #cc333f; }
+  border-top: solid 5px black;
+  border-bottom: solid 5px black; }
   .video__txt {
     font-family: "Ubuntu", sans-serif;
-    color: #cc333f;
+    color: black;
     font-size: 1.5rem;
     padding: 20px; }
   .video__ctn-txt {
@@ -189,6 +201,7 @@
     -webkit-transform: scale(50) rotate(45deg);
     opacity: 0; } }
 
+/* red original:  rgb(204,51,63)    */
 .adventureindex {
   background-image: url("../assets/20220211_175144.jpg");
   background-attachment: fixed;
@@ -289,6 +302,7 @@ button {
   text-decoration: none;
   color: white; }
 
+/* red original:  rgb(204,51,63)    */
 .novedades {
   display: flex;
   flex-direction: column;
@@ -306,11 +320,11 @@ button {
       height: 120vh; } }
   .novedades__title {
     font-family: "Ubuntu", sans-serif;
-    color: #cc333f;
+    color: black;
     font-size: 2rem; }
   .novedades__txt {
     font-family: "Nunito", sans-serif;
-    color: #cc333f;
+    color: black;
     font-size: 1.5rem; }
 
 button {
@@ -400,6 +414,7 @@ button {
 .btn-3 span:hover:after {
   width: 100%; }
 
+/* red original:  rgb(204,51,63)    */
 .footer {
   background-image: url("../assets/footer.jpg");
   background-attachment: fixed;
@@ -455,6 +470,7 @@ button {
 .my-float {
   margin-top: 16px; }
 
+/* red original:  rgb(204,51,63)    */
 .upperctn__complejo {
   height: 90vh;
   background-image: url("../assets/pileta2.jpeg");
@@ -471,12 +487,12 @@ button {
   padding: 20px; }
 
 .complejo__mini {
-  color: #cc333f;
+  color: black;
   font-family: "Ubuntu", sans-serif;
   font-size: 1.5rem; }
 
 .complejo__titulo {
-  color: #cc333f;
+  color: black;
   font-family: "Ubuntu", sans-serif;
   font-size: 2.2rem; }
 
@@ -518,11 +534,11 @@ button {
   padding: 20px; }
   .precio__title {
     font-family: "Ubuntu", sans-serif;
-    color: #cc333f; }
+    color: black; }
 
 .card-text {
   font-family: "Ubuntu", sans-serif;
-  color: #cc333f; }
+  color: black; }
 
 .precio1 {
   padding: 20px; }
@@ -530,6 +546,7 @@ button {
 .imgtarifas {
   padding: 10px; }
 
+/* red original:  rgb(204,51,63)    */
 .upperctn__ubicacion {
   height: 100vh;
   background-image: url("../assets/ubicacion.jpg");
@@ -541,11 +558,11 @@ button {
   padding: 20px; }
   .ubicacion__titulo {
     font-family: "Ubuntu", sans-serif;
-    color: #cc333f;
+    color: black;
     font-size: 2rem; }
   .ubicacion__subtitulo {
     font-family: "Nunito", sans-serif;
-    color: #cc333f;
+    color: black;
     font-size: 1.5rem; }
 
 .caminos {
@@ -553,13 +570,14 @@ button {
   .caminos__titulo {
     padding: 10px;
     font-family: "Ubuntu", sans-serif;
-    color: #cc333f;
+    color: black;
     font-size: 2rem; }
   .caminos__imgctn {
     padding: 10px; }
   .caminos__img {
     padding: 15px; }
 
+/* red original:  rgb(204,51,63)    */
 .upperctn__aventuras {
   height: 100vh;
   background-image: url("../assets/uritorco.jpg");
@@ -571,11 +589,11 @@ button {
   padding: 20px; }
   .aventuras__titulo {
     font-family: "Ubuntu", sans-serif;
-    color: #cc333f;
+    color: black;
     font-size: 2rem; }
   .aventuras__subtitulo {
     font-family: "Nunito", sans-serif;
-    color: #cc333f;
+    color: black;
     font-size: 1.5rem; }
 
 .aventuras__supertexto {
@@ -682,6 +700,10 @@ button {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
+.aventura__lista1 {
+  list-style-type: none; }
+
+/* red original:  rgb(204,51,63)    */
 .upperctn__eventos {
   height: 90vh;
   background-image: url("../assets/eventosesp.jpg");
@@ -699,7 +721,7 @@ button {
 
 .news__title {
   font-family: "Ubuntu", sans-serif;
-  color: #cc333f;
+  color: black;
   font-size: 2rem; }
 
 .news__img {
@@ -714,14 +736,15 @@ button {
 .news__mini {
   padding: 30px;
   font-family: "Ubuntu", sans-serif;
-  color: #cc333f;
+  color: black;
   font-size: 1.5rem; }
 
 .news__body {
   font-family: "Ubuntu", sans-serif;
-  color: #cc333f;
+  color: black;
   font-size: 1.2rem; }
 
+/* red original:  rgb(204,51,63)    */
 .upperctn__contacto {
   background-image: url("../assets/contacto.jpg");
   background-attachment: fixed;
@@ -753,6 +776,7 @@ button {
   100% {
     background-color: #b22cff; } }
 
+/* red original:  rgb(204,51,63)    */
 .effect {
   display: flex; }
   .effect a {
@@ -803,6 +827,8 @@ button {
       top: 5%;
       transition: all 0.2s linear 0s; }
 
+/* red original:  rgb(204,51,63)    */
+/* red original:  rgb(204,51,63)    */
 .presentacion {
   padding: 20px;
   overflow: hidden; }
@@ -828,4 +854,4 @@ button {
     transform: scale(1.1); }
   .presentacion__titulo {
     font-family: "Ubuntu", sans-serif;
-    color: #cc333f; }
+    color: black; }

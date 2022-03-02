@@ -18,6 +18,16 @@
 
 }
 
+#modifnav{
+  font-family: $font-normal;
+    color: $color-red !important;
+    font-size: 1rem !important;
+    &:hover{
+    -webkit-animation: text-pop-up-top 0.5s linear both;
+    animation: text-pop-up-top 0.5s linear both;
+    }
+}
+
 #navbar{
   padding: 0px;
   transition: 1s;
