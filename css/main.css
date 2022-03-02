@@ -425,12 +425,12 @@ button {
     .footer {
       display: flex;
       flex-direction: column-reverse;
-      height: 100vh; } }
+      height: 80vh; } }
   @media screen and (max-width: 768px) {
     .footer {
       display: flex;
       flex-direction: column-reverse;
-      height: 100vh; } }
+      height: 80vh; } }
   .footer__list {
     list-style-type: none; }
   .footer__link {
@@ -620,10 +620,10 @@ button {
   height: 90vh; }
   @media screen and (max-width: 320px) {
     .cartas {
-      height: 200vh; } }
+      height: 220vh; } }
   @media screen and (max-width: 768px) {
     .cartas {
-      height: 200vh; } }
+      height: 220vh; } }
 
 .cartas1 {
   height: 90vh; }
