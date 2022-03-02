@@ -56,11 +56,11 @@
     height: 90vh;
 
     @include movil{
-      height: 180vh;
+      height: 200vh;
   }
 
   @include tablet{
-      height: 180vh;
+      height: 200vh;
   }
 }
 
@@ -68,11 +68,11 @@
   height: 90vh;
 
   @include movil{
-    height: 180vh;
+    height: 200vh;
 }
 
   @include tablet{
-    height: 180vh;
+    height: 200vh;
 }
 }
 
@@ -156,5 +156,6 @@
 
   .aventura__lista1{
     list-style-type: none;
+    font-family: $font-title;
   }
   

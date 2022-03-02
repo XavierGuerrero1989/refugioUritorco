@@ -425,12 +425,12 @@ button {
     .footer {
       display: flex;
       flex-direction: column-reverse;
-      height: 120vh; } }
+      height: 100vh; } }
   @media screen and (max-width: 768px) {
     .footer {
       display: flex;
       flex-direction: column-reverse;
-      height: 120vh; } }
+      height: 100vh; } }
   .footer__list {
     list-style-type: none; }
   .footer__link {
@@ -620,19 +620,19 @@ button {
   height: 90vh; }
   @media screen and (max-width: 320px) {
     .cartas {
-      height: 180vh; } }
+      height: 200vh; } }
   @media screen and (max-width: 768px) {
     .cartas {
-      height: 180vh; } }
+      height: 200vh; } }
 
 .cartas1 {
   height: 90vh; }
   @media screen and (max-width: 320px) {
     .cartas1 {
-      height: 180vh; } }
+      height: 200vh; } }
   @media screen and (max-width: 768px) {
     .cartas1 {
-      height: 180vh; } }
+      height: 200vh; } }
 
 .cards {
   width: 100%;
@@ -701,7 +701,8 @@ button {
   -webkit-text-fill-color: transparent; }
 
 .aventura__lista1 {
-  list-style-type: none; }
+  list-style-type: none;
+  font-family: "Ubuntu", sans-serif; }
 
 /* red original:  rgb(204,51,63)    */
 .upperctn__eventos {

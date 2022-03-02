@@ -10,13 +10,13 @@
     @include movil{
         display: flex;
         flex-direction: column-reverse;
-        height: 120vh;
+        height: 100vh;
     }
 
     @include tablet{
         display: flex;
         flex-direction: column-reverse;
-        height: 120vh;
+        height: 100vh;
     }
 
     &__list{
