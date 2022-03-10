@@ -627,22 +627,13 @@ button {
   -webkit-text-fill-color: transparent; }
 
 .cartas {
-  height: 90vh; }
+  height: 155vh; }
   @media screen and (max-width: 320px) {
     .cartas {
-      height: 220vh; } }
+      height: 400vh; } }
   @media screen and (max-width: 768px) {
     .cartas {
-      height: 220vh; } }
-
-.cartas1 {
-  height: 90vh; }
-  @media screen and (max-width: 320px) {
-    .cartas1 {
-      height: 200vh; } }
-  @media screen and (max-width: 768px) {
-    .cartas1 {
-      height: 200vh; } }
+      height: 400vh; } }
 
 .cards {
   width: 100%;

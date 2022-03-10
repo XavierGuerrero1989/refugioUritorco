@@ -53,28 +53,18 @@
 }
 
 .cartas{
-    height: 90vh;
+    height: 155vh;
 
     @include movil{
-      height: 220vh;
+      height: 400vh;
   }
 
   @include tablet{
-      height: 220vh;
+      height: 400vh;
   }
 }
 
-.cartas1{
-  height: 90vh;
 
-  @include movil{
-    height: 200vh;
-}
-
-  @include tablet{
-    height: 200vh;
-}
-}
 
 .cards {
     width: 100%;
