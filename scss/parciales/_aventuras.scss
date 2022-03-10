@@ -55,12 +55,12 @@
 .cartas{
     height: 155vh;
 
-    @include movil{
-      height: 450vh;
+  @include movil{
+      height: 500vh;
   }
 
   @include tablet{
-      height: 450vh;
+      height: 500vh;
   }
 }
 

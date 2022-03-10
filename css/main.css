@@ -630,10 +630,10 @@ button {
   height: 155vh; }
   @media screen and (max-width: 320px) {
     .cartas {
-      height: 450vh; } }
+      height: 500vh; } }
   @media screen and (max-width: 768px) {
     .cartas {
-      height: 450vh; } }
+      height: 500vh; } }
 
 .cards {
   width: 100%;
