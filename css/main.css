@@ -506,6 +506,9 @@ button {
   font-family: "Ubuntu", sans-serif;
   font-size: 2.2rem; }
 
+.videodrone {
+  padding: 20px; }
+
 .habitaciones {
   padding: 20px;
   background-color: #FA8BFF;
@@ -846,7 +849,8 @@ button {
     width: 80vh; }
   .presentacion__img {
     transition: transform .4s;
-    overflow: hidden; }
+    overflow: hidden;
+    padding: 20px; }
   .presentacion__img:hover {
     transform: scale(1.1); }
   .presentacion__img1 {
